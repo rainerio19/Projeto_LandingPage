@@ -1,5 +1,14 @@
 # Projeto_LandingPage
+# Design Responsivo
 
-[!foto.png](https://raw.github.com/{rainerio19}/{Projeto_LandingPage})
+<div align="center">
+    <img src="./images/screen/foto.png" width="850px" height="500px"</img> 
+</div>
 
-[![foto-2.png](https://i.postimg.cc/vB27tHrH/foto-2.png)](https://postimg.cc/bDb2zPVK)
+<div align="center">
+    <img src="./images/screen/foto_2.png" width="850px" height="500px"</img> 
+</div>
+
+<div align="center">
+    <img src="./images/screen/foto_3.png" width="850px" height="200px"</img> 
+</div>
