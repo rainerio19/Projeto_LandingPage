@@ -1,276 +1,282 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
- }
-.html, body{
-    height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.html,
+body {
+  height: 100%;
 }
 
-.center{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+.center {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.header{
-    width: 100%;
-    padding: 0 2%;
-    height: 60px;
-    background-color: #212343;
+.header {
+  width: 100%;
+  padding: 0 2%;
+  height: 60px;
+  background-color: #212343;
 }
 
-.header img{
-    margin: 19px;
+.header img {
+  margin: 19px;
 }
 
-.container-banner{
-    width: 100%;
-    padding: 0 2%;
-    height: 530px;
-    background-image: url('../images/header_bg.png');
-    background-size: cover;
-    background-position: center;
+.container-banner {
+  width: 100%;
+  padding: 0 2%;
+  height: 530px;
+  background-image: url("../images/header_bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.form{
-    padding: 10px;
-    width: 400px;
-    height: calc(100% + 30px);
-    position: relative;
-    top: -15px;
-    border-color: rgba(120, 120, 120, 0.5);
-    border-style: solid;
-    border-width: 12px;
-    background-color: white;
-    background-clip: padding-box;
-    float: right;
+.form {
+  padding: 20px;
+  width: 400px;
+  height: calc(100% + 30px);
+  position: relative;
+  top: -15px;
+  border-color: rgba(120, 120, 120, 0.5);
+  border-style: solid;
+  border-width: 12px;
+  background-color: white;
+  background-clip: padding-box;
+  float: right;
 }
 
 .container-banner > .center {
-    height: 100%;
+  height: 100%;
 }
 
-.form h2{
-    font-weight: normal;
-    color: #999999;
-    font-size: 18px;
+.form h2 {
+  font-weight: normal;
+  color: #999999;
+  font-size: 18px;
 }
 
-.input-container{
-    margin-top: 20px;
+.input-container {
+  margin-top: 20px;
 }
 
-.input-container span, .form p{
-    font-family: Helvetica;
-    display: inline-block;
-    width: 100%;
-    color: #bbbbbb;
-    font-size: 17px;
+.input-container span,
+.form p {
+  font-family: Helvetica;
+  display: inline-block;
+  width: 100%;
+  color: #bbbbbb;
+  font-size: 17px;
 }
 
-.form p{
-    margin-top: 20px 0;
+.form p {
+  margin-top: 20px 0;
 }
 
-.input-container input[type="text"]{
-    margin-top: 8px;
-    width: 340px;
-    height: 50px;
-    border: 1px solid #cccccc;
+.input-container input[type="text"] {
+  margin-top: 8px;
+  width: 340px;
+  height: 50px;
+  padding: 8px 10px 8px 10px;
+  border: 1px solid #cccccc;
 }
 
-.form input[type="submit"]{
-    margin-top: 20px;
-    color: white;
-    font-size: 25px;
-    width: 280px;
-    height: 56px;
-    display: inline-block;
-    background-color: #363a6d;
-    border-top: 0;
-    border-bottom: 5px solid #4a5097;
-    border-left: 0;
-    border-right: 0;
-    cursor: pointer;
+.input-container input[type="text"]:focus {
+  outline: 0;
+}
+
+.form input[type="submit"] {
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+  width: 280px;
+  height: 56px;
+  display: inline-block;
+  background-color: #363a6d;
+  border-top: 0;
+  border-bottom: 5px solid #4a5097;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
 }
 
 .form .input-submit {
-    text-align: center;
+  text-align: center;
 }
 
-.form input[type="submit"]:hover{
-    background-color: #323665;
+.form input[type="submit"]:hover {
+  background-color: #323665;
 }
 
-.container-list{
-    padding: 40px;
-    float: left;
-    width: 619px;
-    height: 270px;
-    background-color: rgba(33, 35, 67, 0.7);
-    margin-top: 100px;
+.container-list {
+  padding: 40px;
+  float: left;
+  width: 619px;
+  height: 270px;
+  background-color: rgba(33, 35, 67, 0.7);
+  margin-top: 100px;
 }
 
-.container-list ul{
-    list-style-position: inside;
+.container-list ul {
+  list-style-position: inside;
 }
 
 .container-list ul li {
-    margin-top: 20px;
-    color: white;
+  margin-top: 20px;
+  color: white;
 }
 
-.container-2{
-    padding: 50px 2%;
-    background-color: #dddddd;
-    text-align: center;
+.container-2 {
+  padding: 50px 2%;
+  background-color: #dddddd;
+  text-align: center;
 }
 
-.container-2 h2{
-    font-weight: normal;
+.container-2 h2 {
+  font-weight: normal;
 }
 
-.container-2 p{
-    margin: 15px 0;
-    width: 100%;
-    max-width: 768px;
-    display: inline-block;
-    text-align: justify;
+.container-2 p {
+  margin: 15px 0;
+  width: 100%;
+  max-width: 768px;
+  display: inline-block;
+  text-align: justify;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
-.arrow{
-    position: relative;
-    top: 60px;
-    left: 50%;
-    margin-left: -20px;
-    width: 40px;
-    height: 40px;
-    background-image: url('../images/arrow.png');
-    background-size: 100% 100%;
+.arrow {
+  position: relative;
+  top: 60px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/arrow.png");
+  background-size: 100% 100%;
 }
 
-.section-1{
-    padding: 90px 2%;
+.section-1 {
+  padding: 90px 2%;
 }
 
-.section-1 h2{
-    text-align: center;
-    color: #462663;
-    font-weight: normal;
+.section-1 h2 {
+  text-align: center;
+  color: #462663;
+  font-weight: normal;
 }
 
 .container-section {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
-.container-single{
-    float: left;
-    width: 33.3333%;
-    padding: 30px;
+.container-single {
+  float: left;
+  width: 33.3333%;
+  padding: 30px;
 }
 
-.container-single img{
-    width: 70px;
+.container-single img {
+  width: 70px;
 }
 
 .container-single p {
-    display: inline-block;
-    text-align: justify;
-    padding: 10px;
+  display: inline-block;
+  text-align: justify;
+  padding: 10px;
 }
 
-.footer{
-    padding: 20px 0;
-    border-top: 2px solid #888888;
-    text-align: center;
-    color: #888888;
+.footer {
+  padding: 20px 0;
+  border-top: 2px solid #888888;
+  text-align: center;
+  color: #888888;
 }
 
 @media screen and (max-width: 1024px) {
-    .header{
-        width: 100%;
-        padding: 15px 0;
-        text-align: center;
-        height: auto;
-    }
+  .header {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    height: auto;
+  }
 
-    .header img {
-        margin: 0;
-    }
+  .header img {
+    margin: 0;
+  }
 
-    .container-list{
-        padding: 30px 0;
-        float: none;
-        width: 90%;
-        max-width: 500px;
-        height: auto;
-        display: inline-block;
-        margin-top: 0;
-    }
+  .container-list {
+    padding: 30px 0;
+    float: none;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    display: inline-block;
+    margin-top: 0;
+  }
 
-    .container-banner{
-        width: 100%;
-        padding: 40px 2%;
-        height: auto;
-        text-align: center;
-    }
+  .container-banner {
+    width: 100%;
+    padding: 40px 2%;
+    height: auto;
+    text-align: center;
+  }
 
-    .form{
-        max-width: 400px;
-        padding: 10px;
-        width: 90%;
-        height: 100%;
-        display: inline-block;
-        float: none;
-        top: 0;
-    }
+  .form {
+    max-width: 400px;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    float: none;
+    top: 0;
+  }
 
-    .input-container input[type="text"]{
-        width: 100%;
-        height: 50px;
-    }
-    
-    .form input[type="submit"]{
-        margin-top: 20px;
-        max-width: 280px;
-        height: 56px;
-        width: 100%;
-    }
-    
+  .input-container input[type="text"] {
+    width: 100%;
+    height: 50px;
+  }
+
+  .form input[type="submit"] {
+    margin-top: 20px;
+    max-width: 280px;
+    height: 56px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .container-2 {
-        padding-right: 4%;
-        padding-left: 4%;
-    }
+  .container-2 {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
 
-    .container-list {
-        margin-top: 0;
-        float: none;
-        display: inline-block;
-        width: 100%;
-    }
+  .container-list {
+    margin-top: 0;
+    float: none;
+    display: inline-block;
+    width: 100%;
+  }
 
-    .form {
-        float: none;
-        display: inline-block;
-        width: 90%;
-        margin-top: 30px;
-    }
+  .form {
+    float: none;
+    display: inline-block;
+    width: 90%;
+    margin-top: 30px;
+  }
 
-    .container-single{
-        float: none;
-        display: inline-block;
-        width: 100%;
-        max-width: 600px;
-        padding: 30px 0;
-    }
+  .container-single {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 0;
+  }
 }
