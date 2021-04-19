@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Projeto_LandingPage" />
+  <img src="./images/screen/v111.gif" alt="Projeto_LandingPage" />
 
 &#xa0;
 
@@ -71,8 +71,12 @@ $ cd projeto_landingpage
 
 ## :memo: Author
 
-Made with :heart: by <a href="https://github.com/rainerio19}" target="_blank">Rainerio L C Filho</a>
+Made with :heart: by <a href="https://github.com/rainerio19" target="_blank">Rainerio L C Filho</a>
 
 &#xa0;
 
 <a href="#top">Back to top</a>
+
+<p align="center">
+  <img src="./images/screen/v222.gif" alt="Projeto_LandingPage" />
+</p>
